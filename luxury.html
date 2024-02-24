@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<style>
+  body{
+    background-color: black;
+  }
+    li{
+            margin-right: 130px;
+            color: aliceblue;
+        }
+    .box-group{
+        border: 3px solid aliceblue;
+       
+    }
+    p{
+       margin-left: 5px; 
+       color: aliceblue;
+       font-weight: bolder;
+    }
+    h1{
+      color: aqua;
+      text-align: left;
+      font-weight: bolder;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-left: 20px;
+    }
+    h2{
+      color: aliceblue;
+      text-align: center;
+      font-weight: bolder;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+    }
+    .fa fa-calendar{
+      color: aliceblue;
+    }
+    .img{
+      
+      align-items: center;
+    }
+    .form-check{
+      color: aliceblue;
+    }
+    footer{
+      background-color: gray;
+    }
+    .pages{
+      background-color: aliceblue;
+      text-align: center;
+    }
+    .copyright{
+      background-color: aliceblue;
+      text-align: center;
+    }
+    .foot-panel1{
+      color: aliceblue;
+      text-align: center;
+    }
+</style>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                <div class="container-fluid">
+                  
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <image class="img1" src="C:\Users\pande\Downloads\hotel1.png" alt=".." width="130" height="50"> </image>
+                      <li class="nav-item">  
+                        <i class="fa fa-home" aria-hidden="true"></i><a href="#"> Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <i class="fa fa-book" aria-hidden="true"></i><a href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <i class="fa fa-plus" aria-hidden="true"></i> <a href="#">Rooms</a>
+                      </li>
+                      <li class="nav-item">
+                        <i class="fa fa-star" aria-hidden="true"></i><a href="#">News</a>
+                      </li>
+                      <li class="nav-item">
+                        <i class="fa fa-star" aria-hidden="true"></i><a href="#">Contact</a>
+                      </li>
+                      <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-danger" type="submit">Search</button>
+                      </form>
+                      <image class="img1" src="C:\Users\pande\Downloads\hotel1.png" alt=".." width="120" height="50"> </image>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+           <!--<image class="img2" src="https://th.bing.com/th/id/OIP._rJL9l4oG1LyukoV3soGNQHaE8?rs=1&pid=ImgDetMain" width="1500" height="750"></image>-->
+           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://cdn.dubai-marina.com/media/internal_articles_image/3._Premier_Suite.jpg" class="d-block w-100" alt="..." width="1400" height="700">
+              </div>
+              <div class="carousel-item">
+                <img src="https://img.theculturetrip.com/wp-content/uploads/2020/11/5c78be9f-1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://th.bing.com/th/id/OIP._rJL9l4oG1LyukoV3soGNQHaE8?rs=1&pid=ImgDetMain" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h1>ROOM BOOKING</h1>
+    <div class="container-fluid">
+        <div class="box-group">
+            
+            <p>From</p>
+              <form>
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+              <input class="form-control me-2" type="text" placeholder="DD/MM/YYYY" aria-label="Search"><br>
+                <p>To</p>
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                  <input class="form-control me-2" type="text" placeholder="DD/MM/YYYY" aria-label="Search"><br>
+                  <p>Gender</p>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Male
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                      <label class="form-check-label" for="flexRadioDefault2">
+                        Female
+                      </label>
+                    </div><br>
+                    <p>Rooms</p>
+                    <input class="form-control me-2" type="text" placeholder="E.g.Luxury" aria-label="text"><br>
+                    <input class="form-control1 me-2" type="submit" placeholder="Book Now" aria-label="submit">
+                  </form>
+                </div><br>
+                <br>
+                <h2>ABOUT</h2>
+        <div class="box1">
+                    <image class="img" src="https://milestomemories.com/wp-content/uploads/2022/12/Marriott-Resort-Palm-Jumeirah-Dubai-Palm-Suite-Bedroom-1068x712.jpg" width="360" height="300"></image>
+                    <image class="img" src="https://cdn.dubai-marina.com/media/internal_articles_image/3._Premier_Suite.jpg" width="350" height="300"></image> 
+                    <image class="img" src="https://img.theculturetrip.com/wp-content/uploads/2020/11/5c78be9f-1.jpg" width="360" height="300"></image>
+                    <image class="img" src="https://th.bing.com/th/id/OIP._rJL9l4oG1LyukoV3soGNQHaE8?rs=1&pid=ImgDetMain" width="360" height="300"></image>
+                  </div>
+                  <br>
+                    <br>
+                    <h2>Contact us</h2>
+                    <footer>
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <input class="form-control1 me-2" type="submit" placeholder="Book Now" aria-label="submit">
+                      </div>
+                    </form>
+                    <br>
+                   
+                  </footer>
+                  <div class="foot-panel1">
+                    <a href="#nav-section">Back to Top</a>
+                </div><br>
+                    <br>
+                    <br>
+                    <div class="pages">
+                      <a>Conditions of Use</a>
+                      <a>Privacy Notice</a>
+                      <a>Your Ads Privacy Choices</a>
+                  </div><br>
+                  <div class="copyright">
+                    © 2024, Luxury.co, Inc. or its affiliates
+                </div>
+                  
+    </div>
+    
+    </div>
+    <div>
+</div>
+    </div>
+
+      
+</body>
+</html>
